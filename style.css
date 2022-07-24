@@ -1,0 +1,28 @@
+body {
+    height: 100px;
+    background: -webkit-linear-gradient(left, rgb(162, 0, 255), blue);
+    background: -o-linear-gradient(right, rgb(162, 0, 255), blue);
+    background: -moz-linear-gradient(right, rgb(162, 0, 255), blue);
+    background: linear-gradient(to right, rgb(142, 0, 207), blue);
+}
+
+h1 {
+    margin-top: 200px;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    margin-left: 400px;
+    transition: 0.6s;
+    text-decoration: none;
+    padding: 5px;
+    color: aqua;
+}
+
+a {
+    color: rgba(255, 0, 0, 0.705);
+}
+
+h1:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.932);
+}
